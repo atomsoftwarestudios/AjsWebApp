@@ -35,7 +35,7 @@ the TypeScript language and are included in the project. Additionaly, standard N
 
 ### Features
 
-Please note these feauters requires specific setup for each project in the VS solution to work as expected (see [Usage] section for details).
+Please note these feauters requires specific setup for each project in the VS solution to work as expected (see [Usage](#Usage) section for details).
 
 - Configurable behavior for all projects in the solution
 
@@ -474,7 +474,7 @@ TBD
 
 ### License
 
-For details see the [License]{./LICENSE} file
+For details see the [License](https://github.com/atomsoftwarestudios/AjsWebApp/blob/master/LICENSE) file
 
 The project is using various Node.js modules and their dependencies. For the license files related to these modules reffer to 
 node_modules folder which is created and populated automatically when the project is oppened in the Visual Studio.
