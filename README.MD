@@ -6,7 +6,7 @@ Released under the MIT License
 
 ---
 
-> AjsDoc is currently developed together with other Ajs related projects. Latest sources are always available at https://github.com/atomsoftwarestudios/AjsDev
+> AjsWebApp is currently developed together with other Ajs related projects. Latest sources are always available at https://github.com/atomsoftwarestudios/AjsDev
 
 ---
 
