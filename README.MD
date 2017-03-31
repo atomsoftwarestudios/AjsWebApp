@@ -10,8 +10,8 @@ AjsWebApp for Visual Studio (furhtermore VS) is a startup application project in
 debugging & bundling of the Web Applications using the HTML Application With TypeScript project templates. It fully automates the
 post-build tasks such as IIS Express configuration for debugging, resources copying or resources minification based on the configuration.
 
-The tool set is focused on applications developed using the TypeScript and based on Ajs Framework. Build tools are developed in
-the TypeScript language and are included in the project. Additionaly, standard Node and Gulp modules are used.
+The tool set is focused on applications developed using the TypeScript Web Application based mainly on the [Ajs Framework](https://github.com/atomsoftwarestudios/ajs). Build tools are developed in
+the TypeScript language and are included in the project so it is possible to fit them to solution needs. Additionaly, standard Node and Gulp modules are used so Node.js JavaScript runtime must be installed on developer's computer. NPM modules are installed automatically when the AjsWebApp project is openned in the VS.
 
 ---
 
@@ -42,7 +42,7 @@ Please note these feauters requires specific setup for each project in the VS so
 - Full support for MSBuild so the solution can be built incrementally on the build server
   - Build/Rebild/Clean support
 
-- Multiple HTML Web Application with TypeScript projects in the solution while the logical and physical representation of files on the disk
+- Multiple HTML Web Application with TypeScript projects in the same VS Solution while the logical and physical representation of files on the disk
   is... normal. Currently, it is possible to maintain the solution in the same way as C# application solutions while the followig capabilities
   are still possible
 
@@ -55,16 +55,15 @@ Please note these feauters requires specific setup for each project in the VS so
   - with TypeScript sources using map files
   - automatic update of the applictionhost.config file to allow mapping of sources to wwwroot using the IIS virtual directories
 
-
 - Debug/Release configurations of the solution
   - different, configurable, packaging behavior for both configuration types
 
-- Watching for file changes so it is not necessary to rebuild the solution all the time when a small change is made
+- Watching for file changes so it is not necessary to rebuild the solution / project all the time when a small change is made
   (based on node.js fs.watch / chokidar / gulp-watcher modules)
  
-- Configurable of processing LESS/SASS files
+- Configurable and continuous of processing LESS/SASS files
 
-- Configurable JS/HTML/CSS minification using standard, configurable gulp-* modules
+- Configurable and continuous minification of the JS/HTML/CSS using the standard, configurable gulp-* modules
 
 - Support for offline applications
   - generates / updates cache.manifest based on VS solution changes
