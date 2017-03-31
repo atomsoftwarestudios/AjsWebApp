@@ -6,6 +6,10 @@ Released under the MIT License
 
 ---
 
+> AjsDoc is currently developed together with other Ajs related projects. Latest sources are always available at https://github.com/atomsoftwarestudios/AjsDev
+
+---
+
 AjsWebApp for Visual Studio (furhtermore VS) is a startup application project including a build toolset allowing easier development,
 debugging & bundling of the Web Applications using the HTML Application With TypeScript project templates. It fully automates the
 post-build tasks such as IIS Express configuration for debugging, resources copying or resources minification based on the configuration.
