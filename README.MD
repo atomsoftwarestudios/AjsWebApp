@@ -1,4 +1,4 @@
-﻿# AjsWebApp
+# AjsWebApp
 #### The Ajs Framework Application project with post-build tasks
 
 Copyright &copy;2017 Atom Software Studios<br>
@@ -460,15 +460,7 @@ TBD
 
 ### Known issues
 
-- TypeScript map files are not correctly transpilled when gulp-uglify is used
-  - This was valid mainly for AJS
-  - Are map files really needed in production with minified .js files?
-
-- While debuggign the TS code in VS and IE11 it the "data tips" feature of VS works in strange behavior
-  - The .dynamic TypeScript source file is lodaded from IE but data tips does not work here
-  - By switching to original source file it is possible to see variable content but step into/over always switches back to the .dynamic file
-  - Watches and evaluations works normally
-
+For known bugs reffer to [Issues]() and [Project management](https://github.com/atomsoftwarestudios/AjsWebApp/projects/1)
 ---
 
 ### License
