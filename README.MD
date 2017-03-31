@@ -461,6 +461,7 @@ TBD
 ### Known issues
 
 For known bugs prlease reffer to [Issues](https://github.com/atomsoftwarestudios/AjsWebApp/issues) and [Project management](https://github.com/atomsoftwarestudios/AjsWebApp/projects/1)
+
 ---
 
 ### License
