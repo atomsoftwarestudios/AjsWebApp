@@ -74,6 +74,8 @@ Please note these feauters requires specific setup for each project in the VS so
 
 - Support for Web Application Publishing (WebDeploy)
 
+- Source file viewviewer for better debugging
+
 ---
 
 ### Planned features
